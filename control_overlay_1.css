@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
-    width: 200px;
+    width: 180px;
     height: 360px;
     font-family: 'Orbitron', sans-serif;
     background: #1a1a1a;
@@ -50,7 +50,7 @@
     border: 2px solid #03b2e1;
     border-radius: 15px;
     background-image: linear-gradient(0deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent), linear-gradient(90deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent);
-    top: calc(42px);
+    top: calc(32px);
     background-size: calc(100% - 15px) 100%, 100% calc(100% - 15px);
     background-repeat: no-repeat;
     background-position: center;
