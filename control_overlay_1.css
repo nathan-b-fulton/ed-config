@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
-    width: 160px;
+    width: 200px;
     height: 360px;
     font-family: 'Orbitron', sans-serif;
     background: #1a1a1a;
@@ -136,24 +136,25 @@
 .custom .bumper.left:after{
     content: "BOOST";
     right: 0;
+    top: 45px;
 }
 
 .custom .button.a:after{
     content: "PRIMARY";
     right: 0;
-    top: 45px;
+    top: 90px;
     width: 51px;
 }
 
 .custom .button.b:after{
     content: "SECONDARY";
     right: 0;
-    top: 90px;
+    top: 135px;
 }
 
 .custom .button.x:after{
     content: "HEAT";
     right: 0;
-    top: 135px;
+    top: 0;
     width: 47px
 }
