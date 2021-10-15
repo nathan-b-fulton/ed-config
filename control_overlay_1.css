@@ -79,7 +79,7 @@
     position: absolute;
     font-size: 14px;
     color: #03b2e1;
-    top: 50%;
+    top: 25%;
     right: calc(-200%);
     transform-origin: center;
     transform: rotate(-90deg);
@@ -116,7 +116,7 @@
 }
 
 .custom .stick.right{
-    top: calc(-120px);
+    top: 50%;
     left: 15px;
 }
 
