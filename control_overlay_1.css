@@ -82,7 +82,7 @@
     top: 50%;
     right: calc(-200%);
     transform-origin: center;
-    transform: translateY(-50%) rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 .custom .sticks:before{
@@ -150,7 +150,7 @@
     content: "PRIMARY";
     right: 0;
     top: 90px;
-    width: 51px;
+    width: 60px;
 }
 
 .custom .button.b:after{
