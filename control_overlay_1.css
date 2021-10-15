@@ -133,7 +133,14 @@
     right: 0;
 }
 
-.custom .bumper.left:after{
+.custom .button.x:after{
+    content: "HEAT";
+    right: 0;
+    top: 0;
+    width: 47px
+}
+
+.custom .button.y:after{
     content: "BOOST";
     right: 0;
     top: 45px;
@@ -150,11 +157,4 @@
     content: "SECONDARY";
     right: 0;
     top: 135px;
-}
-
-.custom .button.x:after{
-    content: "HEAT";
-    right: 0;
-    top: 0;
-    width: 47px
 }
