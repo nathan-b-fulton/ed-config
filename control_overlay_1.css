@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
-    width: 360px;
+    width: 160px;
     height: 360px;
     font-family: 'Orbitron', sans-serif;
     background: #1a1a1a;
@@ -74,7 +74,7 @@
 }
 
 .custom .triggers:after{
-    content: "THROTTLE";
+    content: "COLD ORBIT";
     display: inline-block;
     position: absolute;
     font-size: 14px;
@@ -123,35 +123,37 @@
 .custom .bumpers{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
 }
 
 .custom .abxy{
     position: absolute;
     width: 100%;
     top: 0;
+    right: 0;
 }
 
 .custom .bumper.left:after{
     content: "BOOST";
-    left: 68px;
+    right: 0;
 }
 
 .custom .button.a:after{
-    content: "ECM";
+    content: "PRIMARY";
     right: 0;
+    top: 45px;
     width: 51px;
 }
 
 .custom .button.b:after{
-    content: "SHIELD";
+    content: "SECONDARY";
     right: 0;
-    top: 45px;
+    top: 90px;
 }
 
 .custom .button.x:after{
     content: "HEAT";
-    right: 80px;
-    top: 45px;
+    right: 0;
+    top: 135px;
     width: 47px
 }
