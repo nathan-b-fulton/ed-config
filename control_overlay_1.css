@@ -4,7 +4,7 @@
     width: 360px;
     height: 360px;
     font-family: 'Orbitron', sans-serif;
-    background: #202020;
+    background: #1a1a1a;
 }
 
 .custom .bumper.pressed:after, .custom .button.pressed:after{
